@@ -5,18 +5,18 @@
 
 try
 {
-Console.WriteLine("Введите целое число");
-int x = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Введите целое число");
+    int x = Convert.ToInt32(Console.ReadLine());
 
-void ThirdDegree()
-{
-    int i = 1;
-    while (i <= x)
+    void ThirdDegree()
     {
-        Console.Write(Math.Pow(i, 3) + ", ");
-        i++;
+        int i = 1;
+        while (i <= x)
+        {
+            Console.Write(Math.Pow(i, 3) + ", ");
+            i++;
+        }
     }
-}
     ThirdDegree();
 }
 catch
